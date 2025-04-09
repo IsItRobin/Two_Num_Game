@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Two Num Game</title>
+  <link rel="stylesheet" href="style-index.css" />
+</head>
+<body>
+  <header>
+    <h2 class="up-s">Your Score is<span id ="Score"> 0</span></h2>
+    <h3 class="up-n">Robin<sup> puri</sup></h3>
+    <h1 class="up=num">Your digit is <span id="up-num">?</span></h1>
+    <span id="Timer"> Loading...</span>
+  </header>
+
+  <main>
+    <div class="upper-part">
+      <h3>First Number</h3>
+      <input type="number" id="num1" placeholder="Enter the number" />
+    </div>
+
+    <div class="Lower">
+      <h3>Second Number</h3>
+      <input type="number" id="num2" placeholder="Enter Second number" />
+    </div>
+
+    <div class="Result">
+      <button onclick="getNumbers()">Get Numbers</button>
+    </div>
+
+    <div class="Result">
+      <h3>Result number is: <span id="output">?</span></h3>
+    </div>
+  </main>
+
+  <footer></footer>
+  <script src="J.js"></script>
+</body>
+</html>

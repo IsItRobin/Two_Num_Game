@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h2, header h3, header h1 {
+    margin: 10px 0;
+  }
+  
+  #Timer {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    float: right;
+    margin-top: 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  /* Score and Name */
+  .up-s {
+    font-size: 24px;
+    font-style: italic;
+  }
+  
+  .up-n {
+    font-style: italic;
+    font-size: 18px;
+  }
+  
+  /* Random Number Display */
+  .up-num {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Inputs Section */
+  main {
+    width: 90%;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .upper-part,
+  .Lower,
+  .Result {
+    margin: 15px 0;
+  }
+  
+  h3 {
+    font-weight: 600;
+  }
+  
+  /* Input Fields */
+  input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4b2b;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff416c;
+    transform: scale(1.05);
+  }
+  
+  /* Result Number Styling */
+  #output {
+    font-weight: bold;
+    font-size: 24px;
+    color: yellow;
+  }
+  
